@@ -136,7 +136,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateUserDto {
   @ApiProperty({
-    example: 'Paulo Salvatore',
+    example: 'Wellyson Lourenco',
     description: `O nome será utilizado para qualquer coisa (Perfil, Home Page, etc) que precise exibir informações da pessoa conectada.`,
   })
   name: string;
@@ -240,9 +240,3 @@ Para isso, consulte os seguintes links da documentação:
 > Confira a implementação em https://docs.nestjs.com/openapi/other-features
 
 ## Conclusão
-
-Curtiu? Ficou fácil incluir uma documentação bem robusta nas nossas aplicações, não?!
-
-Agora não tem mais desculpa pra não gerar uma boa documentação de endpoints, use e abuse dessa feature.
-
-Um beijo pra vcs. 🧡
